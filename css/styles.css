@@ -1,0 +1,212 @@
+/* root */
+:root{
+    --primary-interactive-color:#4D5AE5;
+    --title-color:#2E2F42;
+    --text-color:#434455;
+    --active-color:#404BBF;
+    --light-bg:#F4F4FD;
+    --dark-bg:#2E2F42;
+    --primary-white:#FFFFFF;
+}
+
+/* base style */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--primary-white);
+}
+
+button{
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    font-style: normal;
+    color: currentColor;
+}
+
+.list{
+    list-style: none;
+}
+
+/* ----------WEBSTUBIO---------- */
+
+/* header */
+
+/* logo */
+.logo{
+font-family: 'Raleway', sans-serif;
+color:var(--primary-interactive-color);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.accent-logo{
+color:var(--title-color);
+}
+
+/* navigation */
+
+.contacts-adress{
+    font-style: normal;
+}
+
+.nav-list-link{
+color: var(--title-color);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.nav-list-link:hover, .nav-list-link:focus{
+    color: var(--active-color);
+}
+
+.contact-list-link{
+color: var(--text-color);
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.contact-list-link:hover, .contact-list-link:focus{
+    color: var(--active-color);
+}
+
+/* hero-section */
+
+.hero-section{
+background-color: var(--dark-bg);
+}
+
+.hero-title{
+color: var(--primary-white);
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+.hero-button{
+background-color: var(--primary-interactive-color);
+color: var(--primary-white);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.hero-button:hover, .hero-button:focus{
+    background-color: var(--active-color);
+}
+
+/* advantages-section */
+
+.advantages-title{
+color: var(--title-color);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.advantages-desc{
+color: var(--text-color);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* skills-section */
+
+.skills-title{
+color: var(--title-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+}
+
+/* our-team-section */
+
+.team-section{
+    background-color: var(--light-bg);
+}
+.team-list-item{
+    background-color: #FFFFFF;
+}
+
+.team-title{
+color: var(--title-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+}
+
+.team-list-title{
+color: var(--title-color);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.team-list-desc{
+color: var(--text-color);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* footer */
+.logo .accent-logo-footer{
+color:var(--light-bg);
+}
+
+.footer{
+background-color: var(--dark-bg);
+}
+
+.footer-desc{
+color: var(--light-bg);
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ----------PORTFOLIO---------- */
+
+
+.filtr-button{
+font-family: 'Roboto', sans-serif;
+background-color: var(--light-bg);
+color: var(--primary-interactive-color);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.filtr-button:hover, .filtr-button:focus{
+color: var(--primary-white);
+background-color: var(--active-color);
+}
+
+.products-list-title{
+color: var(--dark-bg);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.products-list-desc{
+color: var(--text-color);
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
