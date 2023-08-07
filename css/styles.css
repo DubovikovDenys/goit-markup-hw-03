@@ -244,6 +244,10 @@ nav {
   gap: 24px;
 }
 
+.skills-section {
+  padding-top: 0px;
+}
+
 .card-set-item {
   flex-basis: calc((100% - 24px * 3) / 4);
 }
@@ -325,6 +329,7 @@ nav {
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 0;
 }
 
 .footer {
