@@ -123,6 +123,7 @@ img {
 nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .nav-list-link {
@@ -143,7 +144,7 @@ nav {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
+  margin-right: auto;
 }
 .contact-list-link {
   color: var(--text-color);
